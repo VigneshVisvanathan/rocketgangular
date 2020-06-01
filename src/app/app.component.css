@@ -1,0 +1,87 @@
+body {margin:0;}
+
+table {
+    width: 100%;
+    margin-right: 8px;
+  }
+  
+button{
+    width: 100px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+  /* .example-card {
+    max-width: 400px;
+    float: right;
+  } */
+
+  .nav-container {
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+  }
+  
+  .Navbar {
+    height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 80px;
+  color: white;
+}
+  
+  .header {
+    overflow: hidden;
+  background-color: black;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  height:80px;
+  color: white;
+  text-align: center;
+  
+  }
+
+  .Mainspace{
+    margin-top: 88px;
+    margin-left: 88px;
+   
+  }
+  
+  .list{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .mat-card .mat-divider-horizontal {
+    position: inherit;
+    left: 0;
+    width: 85%;
+}
+
+.example-card[_ngcontent-gfk-c0] {
+    float: right;
+    position: inherit;
+}
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    display: block;
+    position: inherit;
+    padding: 16px;
+    border-radius: 4px;
+    width: 30%;
+}
